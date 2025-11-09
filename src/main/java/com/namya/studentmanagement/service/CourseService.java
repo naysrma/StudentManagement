@@ -1,0 +1,16 @@
+package com.namya.studentmanagement.service;
+
+import java.util.List;
+
+import com.namya.studentmanagement.entity.Course;
+
+public interface CourseService {
+	
+	public void save(Course course);
+	
+	public List<Course> findAllCourses();
+	
+	public Course findCourseById(int id);
+	
+	public void deleteCourseById(int id);
+}
